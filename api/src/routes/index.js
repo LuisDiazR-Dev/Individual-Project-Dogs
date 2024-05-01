@@ -1,12 +1,18 @@
-const { Router } = require('express');
+const router = require('express').Router()
+
+// * Controllers imports
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
 
 
-const router = Router();
 
+
+
+// * Rutas
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
+// router.use()
+
 
 
 module.exports = router;
