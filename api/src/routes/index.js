@@ -1,8 +1,12 @@
+
 const router = require('express').Router()
 
 // * Controllers imports
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
+const getDogsApi = require('../controllers/API/getDogsAPI');
+const postDogsDB = require('../controllers/DB/postDogsDB');
+
 
 
 
@@ -12,6 +16,16 @@ const router = require('express').Router()
 // Configurar los routers
 // Ejemplo: router.use('/auth', authRouter);
 // router.use()
+//------------------Get
+router.get('/', getDogsApi)
+
+
+//------------------Post
+router.post('/addDog', postDogsDB  )
+
+
+
+
 
 
 
