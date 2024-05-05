@@ -1,0 +1,30 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 1rem;
+
+  text-decoration: none;
+  text-wrap: balance;
+  
+  min-height: 100vh;
+  max-width: 896px;
+  
+  margin: auto;
+
+  border: 1px solid crimson;
+  background-color: rgb(175, 168, 168);
+}
+
+body {
+  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
