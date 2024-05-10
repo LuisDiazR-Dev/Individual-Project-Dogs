@@ -17,7 +17,7 @@ const postDogsDB = require('../controllers/DB/postDogsDB');
 // Ejemplo: router.use('/auth', authRouter);
 // router.use()
 //------------------Get
-router.get('/', getDogsApi)
+router.get('/home', getDogsApi)
 
 
 //------------------Post
